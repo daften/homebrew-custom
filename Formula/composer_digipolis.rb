@@ -1,13 +1,13 @@
-class Composer < Formula
-  desc "Dependency Manager for PHP"
+class ComposerDigipolis < Formula
+  desc "Dependency Manager for PHP, pinned to 1.6.5"
   homepage "https://getcomposer.org/"
   url "https://getcomposer.org/download/1.6.5/composer.phar"
-  sha256 "0901a84d56f6d6ae8f8b96b0c131d4f51ccaf169d491813d2bcedf2a6e4cefa6"
+  sha256 "67bebe9df9866a795078bb2cf21798d8b0214f2e0b2fd81f2e907a8ef0be3434"
 
   bottle :unneeded
 
   def install
-    bin.install "composer.phar" => "composer"
+    bin.install "composer.phar" => "composer1.6.5"
   end
 
   test do
@@ -53,7 +53,7 @@ class Composer < Formula
       echo Greetings::sayHelloWorld();
     EOS
 
-    system "#{bin}/composer", "install"
+    system "#{bin}/composer1.6.5", "install"
     assert_match /^HelloHomebrew$/, shell_output("php tests/test.php")
   end
 end
