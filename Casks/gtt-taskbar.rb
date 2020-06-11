@@ -1,6 +1,6 @@
 cask 'gtt-taskbar' do
-  version '0.3.7'
-  sha256 '9eb190a607d6881fc131ef028aec620a1a4f0295bb4ad2902842513d7176dd1f'
+  version '0.3.10'
+  sha256 '504d6147cbf054794ada4f9a0b19aaf3a9d0169162a7c086092eeab54f88ade2'
 
   url "https://github.com/kriskbx/gitlab-time-tracker-taskbar/releases/download/v#{version}/gtt-taskbar-darwin-x64-#{version}.zip"
   appcast 'https://github.com/krisbx/gitlab-time-tracker-taskbar/releases.atom'
