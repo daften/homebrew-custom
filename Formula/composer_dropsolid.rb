@@ -1,4 +1,4 @@
-class ComposerDigipolis < Formula
+class ComposerDropsolid < Formula
   desc "Dependency Manager for PHP, pinned to 1.6.5"
   homepage "https://getcomposer.org/"
   url "https://getcomposer.org/download/1.6.5/composer.phar"
