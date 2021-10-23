@@ -6,8 +6,6 @@ class GitlabTimeTracker < Formula
   url "https://github.com/kriskbx/gitlab-time-tracker/releases/download/1.7.40/gtt-macos"
   sha256 "3fb512e551c15e4edf84cff874a2d3caf79e57d56c4f918c9126afeeab036985"
 
-  bottle :unneeded
-
   depends_on "node" => :optional
 
   def install

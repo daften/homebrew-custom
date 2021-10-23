@@ -4,8 +4,6 @@ class Composer1 < Formula
   url "https://getcomposer.org/download/1.10.22/composer.phar"
   sha256 "6127ae192d3b56cd6758c7c72fe2ac6868ecc835dae1451a004aca10ab1e0700"
 
-  bottle :unneeded
-
   def install
     bin.install "composer.phar" => "composer1"
   end

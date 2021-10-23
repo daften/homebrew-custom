@@ -4,8 +4,6 @@ class ComposerDropsolid < Formula
   url "https://getcomposer.org/download/1.6.5/composer.phar"
   sha256 "67bebe9df9866a795078bb2cf21798d8b0214f2e0b2fd81f2e907a8ef0be3434"
 
-  bottle :unneeded
-
   def install
     bin.install "composer.phar" => "composer1.6.5"
   end
